@@ -1,0 +1,31 @@
+{
+  "name": "Alexandria Library Management System",
+  "short_name": "Alexandria LMS",
+  "description": "Comprehensive modern library catalog, patron, and circulation management suite.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#4f46e5",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Issue Book",
+      "url": "/index.html#circulation",
+      "description": "Quickly issue a book to a library patron"
+    },
+    {
+      "name": "Books Catalog",
+      "url": "/index.html#books",
+      "description": "Search and manage cataloged books"
+    }
+  ],
+  "categories": ["education", "productivity", "utilities"]
+}
